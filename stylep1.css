@@ -1,0 +1,65 @@
+body{
+   background-image: url(Design\ sem\ nome\ \(1\).png);
+    background-size: cover;            
+    background-repeat: no-repeat;      
+    background-position: center;       
+    height: 100vh;
+    margin: 0;                          
+    display: flex;
+    justify-content: center;
+    align-items: center;         
+}
+
+.pergunta{
+    
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(30, 30, 30, 0.95);
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.2); 
+    color: rgb(255, 255, 255);
+    width: 500px;
+    height:95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}   
+
+.perguntinha{
+    margin-top: 100px;
+    border-radius: 20px;
+
+
+
+
+}
+.questao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    margin-top: 64px;
+}
+
+
+
+.questao button {
+    background-color: #121212; 
+    color: #ffffff;
+    border: 2px solid #00ffff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #00ffff44;
+    transition: 0.3s;                  
+
+    width: 80%;
+    height: 10%;
+    margin-top: 6px;
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px  rgba(0, 255, 255, 0.2); 
+}
